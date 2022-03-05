@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+
+header {
+    background-image: url(./img/star-wallpaper.jpg);
+    background-color: black; /* Used if the image is unavailable */
+    height: 550px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.logo {
+    color: rgb(103, 163, 12);
+    margin: 0% 12%;
+
+}
+
+.hmenu {
+    display: grid;
+    grid-template-columns: 200px 10fr;
+}
+
+.menu-items {
+    text-transform: uppercase;
+    color: rgb(202, 202, 202);    
+    margin-top: 20px;
+    margin-right: 8%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    margin-top: 80px;
+}
+
+.heroh {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 58px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleX(0.7);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.heroh span {
+    color: rgb(103, 163, 12);
+}
+
+.htext {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    width: 40%;
+}
+
+.grbt {
+    background-color: rgb(103, 163, 12);
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 0;
+}
+
+.whbt {
+    background-color: rgb(236, 236, 236);
+    color: rgb(92, 92, 92);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 0;
+}
+
+.herocar {
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
